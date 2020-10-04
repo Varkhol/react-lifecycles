@@ -1,0 +1,69 @@
+.timer-container {
+    width: 760px;
+    margin: auto;
+}
+
+.timer-title {
+    text-align: center;
+}
+
+.time-input {
+    display: flex;
+    flex-direction: column;
+    color:#7e80f3;
+}
+
+.input-label {
+    text-align: center;
+}
+
+.input-field {
+    width: 50px;
+    border: 2px solid indigo;
+    border-radius: 15px;
+    margin: auto;
+    outline: none;
+    height: 30px;
+    text-align: center; 
+}
+
+.start:focus {
+    outline: none;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+
+.buttons button {
+    background-color: #7e80f3;
+    border: 2px solid indigo;
+    border-radius: 15px;
+    padding: 10px 30px;
+    color: whitesmoke;
+    box-shadow: 0 9px lightgray;
+}
+
+.buttons button:active {
+    background-color: indigo;
+    box-shadow: 0 5px lightgray;
+    transform: translateY(4px);
+    outline: none;
+  }
+
+.progress-container {
+    border: 2px solid indigo;
+    background-color: lightgray;
+    border-radius: 15px;
+}
+
+.progress-bar {
+    height: 30px;
+    background-color: #7e80f3;
+    border-radius: 15px;
+    text-align: center;
+    font-style: italic;
+}
