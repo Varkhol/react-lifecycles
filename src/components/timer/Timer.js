@@ -12,7 +12,7 @@ export default class Timer extends Component {
     getInitialState = () => {
         return {
           timer: this.updateTimerValue,
-          autoplay: this.updateAutoplayValue,
+          autoplay: false,
           disabled: false,
           progress: 100
         };
